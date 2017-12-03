@@ -1,0 +1,155 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+#site-logo {
+    float: right;
+    height: 100%;
+    display: table;
+}
+.loginTop{
+    float: right;
+    margin-right: 35px;
+}
+.site-loginTop-inner{
+    height: 90px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.site-loginTop-inner a{
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.verticalLine {
+    border-left: 2px solid #fff;
+    float: right;
+    width: 0px;
+    height: 30px;
+    margin: 0 15px;
+}
+div.search-toggle-li {
+    float: left;
+    display: block;
+}
+li.search-toggle-li{display: none}
+.login-link{
+    float: right;
+    display: block;
+    color: #fff;
+}
+
+form#login{
+    display: none;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 200px;
+    padding: 40px 25px 25px 25px;
+    width: 350px;
+    z-index: 999;
+    left: 50%;
+    margin-left: -200px;
+}
+
+form#login p.status{
+    display: none;
+}
+
+.login_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 998;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"], .button {
+    display: inline-block;
+    font-family: inherit;
+    background-color: #3bddba;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 7px 30px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 7px 30px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 7px 30px -3px rgba(0,0,0,0.75);
+}
+
+.form-1 input{
+    box-sizing: border-box;
+    max-height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+
+.form-1 input[type="text"],
+.form-1 input[type="email"],
+.form-1 input[type="tel"]{
+    border-radius: 0;
+    background: #fff;
+}
+
+.form-1 input[type="text"]::placeholder,
+.form-1 input[type="email"]::placeholder,
+.form-1 input[type="tel"]::placeholder{
+    color:#000;
+    font-size: 20px;
+}
+
+.form-1 input[type="submit"]{
+    max-width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.oceanwp-social-icons li {
+    margin: 0 6px!important;
+}
+
+ul.footer-links {
+    float: right;
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 20px;
+}
+/*.slick-slide  {*/
+    /*opacity: 0.2!important;*/
+/*}*/
+
+/*.slick-slide.slick-active {*/
+    /*opacity: 1!important;*/
+/*}*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+*{font-family: 'Heebo', sans-serif;}
+
+.row {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.col-md-6 {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+.form-1 .col-md-6 {
+    max-height: 40px;
+}
